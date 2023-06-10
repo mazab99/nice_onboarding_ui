@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nice_onboarding_ui/constants/colors.dart';
 
 Color getColorFromIndex(int currentIndex) {
   switch (currentIndex) {

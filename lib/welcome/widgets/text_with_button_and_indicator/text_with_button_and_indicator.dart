@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nice_onboarding_ui/constants/animations.dart';
-import 'package:nice_onboarding_ui/constants/colors.dart';
 import 'package:nice_onboarding_ui/utils/functions.dart';
-
 import 'custom_circular_progress.dart';
 import 'indicator.dart';
-
 part 'main_text.dart';
 
 

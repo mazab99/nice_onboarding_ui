@@ -20,7 +20,7 @@ class _MainText extends StatelessWidget {
             style: const TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 24,
-              color: AppColors.text,
+              color: Colors.black,
             ),
           ),
           const SizedBox(
@@ -35,7 +35,7 @@ class _MainText extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 16,
-                color: AppColors.subtext,
+                color:Colors.black.withOpacity(0.4),
                 height: 1.4,
               ),
               textAlign: TextAlign.center,

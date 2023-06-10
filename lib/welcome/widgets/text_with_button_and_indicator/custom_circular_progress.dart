@@ -1,8 +1,5 @@
-
 import 'package:flutter/material.dart';
-
 import '../../../constants/animations.dart';
-import '../../../constants/colors.dart';
 import '../../../utils/functions.dart';
 
 class CustomCircularProgress extends StatelessWidget {
@@ -21,7 +18,7 @@ class CustomCircularProgress extends StatelessWidget {
         tween: getProgressOnCurrentIndex(currentIndex),
         duration: AppAnimations.circularProgressIndicator,
         builder: (_, value, __) => CircularProgressIndicator(
-          backgroundColor: AppColors.circularProgressIndicatorBackground,
+          backgroundColor: Colors.grey.withOpacity(0.2),
           value: value,
           strokeWidth: 2,
           valueColor: AlwaysStoppedAnimation(
