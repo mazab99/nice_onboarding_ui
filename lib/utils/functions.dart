@@ -59,6 +59,7 @@ Tween<double> getProgressOnCurrentIndex(int currentIndex) {
     case 0:
       return Tween<double>(
         begin: 0,
+
         end: 0.5,
       );
     case 1:
